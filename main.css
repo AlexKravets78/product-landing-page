@@ -1,0 +1,95 @@
+.navigate {
+background-color: rgb(9, 202, 9);
+overflow: hidden;
+display: flex;
+}
+.navigate a {
+float: left;
+color: black;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+font-size: 17px;
+}
+.navigate a:hover {
+background-color: white;
+color: black;
+}
+body{
+    text-align:center;
+    padding-top: 40px;
+    background-color:rgb(61, 55, 55);
+    color:rgb(9, 202, 9);
+}
+#video{
+    margin-top:20px;
+    margin-bottom:20px;
+    width: 700px;
+    height:400px;
+}
+  #submit{
+background-color:rgb(9, 202, 9);
+height:30px;
+  }
+  #email{
+      width:300px;
+      height: 30px;
+  }
+  section{
+      margin:auto;
+      display: flex;
+      width:900px;
+      height:300px;
+  }
+  img {
+    width:30%;
+    height:100%;
+    padding: 10px;
+    margin: 10px;
+    flex:1;
+  }
+  div{
+    margin-top:50px;
+  }
+  ul{
+    display:table;
+    margin:auto;
+  }
+  li{
+    display:table-cell;
+    text-align:center;
+    padding:3px 10px;
+  }
+  a{
+    display:table-cell;
+  }
+  @media screen and (max-width: 900px) {
+    div{
+        margin-top:10%;
+      }
+    #video{
+        margin-top:10px;
+        margin-bottom:30%;
+        margin:auto;
+        width: 400px;
+        height:150px;
+    }
+    section{
+        margin:auto;
+        display: flex;
+        width:500px;
+        height:150px;
+    }
+}
+@media screen and (max-width: 630px){
+    section{
+        flex-direction:column;
+        margin:auto;
+        display: flex;
+        width:900px;
+        height:300px;
+    }
+    div{
+        margin-top:150%;
+      }
+}
